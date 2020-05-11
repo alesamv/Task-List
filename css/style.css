@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(97, 53, 100);
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-family: 'Leckerli One', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 90px;
+}
+
+.subtitle{
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.quote{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.fun-container{
+    flex-grow: 0.8;
+    margin: 10px;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: rgb(241, 180, 236);
+}
+
+textarea{
+    margin: 10px;
+    resize: none;
+    border: 2px solid #000000
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    margin: 5px;
+}
+
+.borrar-task,
+.borrar-task:hover {
+    float: right;
+    cursor: pointer;
+    color: rgb(245, 31, 77);
+    font-weight: bold;
+    margin-right: 60px
+}
+label{
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    height: 40px;
+    border:2px solid rgb(0, 0, 0); 
+    border-radius: 3px;
+    background-color: rgb(145, 79, 136);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-top: 13px;
+    cursor: pointer;
+}
